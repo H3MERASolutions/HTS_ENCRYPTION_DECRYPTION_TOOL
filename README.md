@@ -1,5 +1,8 @@
-HTS Level 06 Encryption/Decryption Tool
+**HTS Level 06 Encryption/Decryption Tool**
+
+
 A lightweight, interactive Python utility designed to solve the Hack This Site (Level 06) challenge. This tool automates the process of shifting ASCII values based on character position to encrypt or decrypt strings instantly.
+
 
 🚀 Features
 Interactive CLI Menu: Navigate through options using your arrow keys.
@@ -10,12 +13,14 @@ Interactive CLI Menu: Navigate through options using your arrow keys.
 
 * Colorized Output: Clean, easy-to-read terminal interface with ANSI colors.
 
+
 🧠 The Logic
 The cipher works by shifting each character's ASCII value by its index in the string:
 
 * Encryption: Encrypted_Char = Original_Char + Index
 
 * Decryption: Original_Char = Encrypted_Char - Index
+
 
 🛠️ Installation & Usage
 Clone the repository:
